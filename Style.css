@@ -97,27 +97,6 @@ body {
     border: 2px solid white !important;
 }
 
-/* card section */
-#card {
-    margin-top: 10%;
-    padding: 0 20px;
-}
-
-.card {
-    margin-bottom: 30px;
-    border: none !important;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.card-text {
-    text-align: center;
-}
-
 /* about section */
 .about {
     display: flex;
@@ -347,6 +326,12 @@ body {
 
 .bloga .btn2 {
     margin: 15px 0;
+}
+
+.bloga img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 /* footer section */
