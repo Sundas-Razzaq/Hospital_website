@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment-form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- form section -->
+     <section id="form">
+        <div class="form">
+            <h1><b>Book An Appointment</b></h1>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="doctor">Choose Doctor</label>
+                    <select id="doctor" name="doctor" required>
+                        <option value="">Select a doctor</option>
+                        <option value="dr_smith">Dr. John Smith</option>
+                        <option value="dr_jones">Dr. Sarah Jones</option>
+                        <option value="dr_white">Dr. Michael White</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <button type="submit" class="submit-btn">Book Appointment</button>
+            </form>
+        </div>
+     </section>
+</body>
+</html>
